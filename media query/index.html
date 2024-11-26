@@ -11,10 +11,23 @@
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- End of tailwind CDN -->
+
+    <style>
+      div.containers{
+        @media screen and (max-width:600px){
+          background: red;
+        }
+        @media screen and (min-width:600px){
+          background: blue;
+        }
+
+      }
+    </style>
   </head>
   <body>
     <!-- Media Query -->
-     <div class="w-screen h-screen bg-green-200 2xl:bg-red-500 xl:bg-yellow-500 lg:bg-blue-600 md:bg-emerald-700 sm:bg-black"></div>
+     <div class="w-screen h-[200px] bg-green-200 2xl:bg-red-500 xl:bg-yellow-500 lg:bg-blue-600 md:bg-emerald-700 sm:bg-black"></div>
+    <div class="w-screen bg-black h-[200px] containers"></div>
 
      <!-- Small (sm) 640px @media (min-width:640px)-->
 
