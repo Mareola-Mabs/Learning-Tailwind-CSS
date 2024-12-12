@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    h1{
+        color: green;
+        margin-top: 20px;
+        @apply text-6xl font-bold
+    }
+
+    h2{
+
+        @apply bg-blue-300 mt-4 p-4 rounded-md text-white;
+    }
+
+    .testme{
+        background: green;
+    }
+
+    .testme1{
+        background: green;
+        @apply mt-4;
+    }
+}
+
+@layer components{
+    .primarybtn{
+        @apply bg-blue-500 text-white px-5 py-2 rounded-sm hover:bg-blue-900 mt-3;
+
+    }
+}
+
+.heroheader{
+    font-size: 50px;
+    @apply text-blue-600 m-4;
+}
