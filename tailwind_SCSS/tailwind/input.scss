@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    button{
+        @apply text-white bg-blue-300 p-4 rounded-md my-4;
+    }
+}
+
+.main{
+    &__card{
+        background: green;
+        @apply flex justify-center rounded-sm text-white p-4 hover:bg-blue-300 cursor-pointer
+    }
+}
