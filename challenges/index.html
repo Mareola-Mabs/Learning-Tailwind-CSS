@@ -13,14 +13,44 @@
     <!-- End of tailwind CDN -->
   </head>
   <body>
-    <div class="w-full h-screen flex justify-center items-center">
+    <div class="w-full h-screen flex justify-center items-center flex-col">
         <div class="flex flex-col justify-center items-center border-2 border-black w-[350px] h-[350px]">
             <label for="fullname font-black font-bold">Full Name</label>
             <input type="text" name="" id="fullname" placeholder="Enter your full name"
             class="shadow rounded-md p-3 placeholder-blue-200 text-lg font-medium border-2 border mt-2 focus:bg-blue-100">
             <button class="p-3 px-4 bg-[rgb(36,_57,_91)] rounded-lg text-white mt-2 font-semibold">Save</button>
         </div>
+
+        <div class="bg-gray-500 w-[350px] h-[350px] mt-2 flex justify-center items-center">
+            <div class="rounded-md w-[250px] h-[250px] bg-white">
+                <div class="bg-gray-300 h-[50px] flex items-center pl-5 text-gray-700 rounded-t-md font-semibold">
+                    The title of the card
+                </div>
+                <div class="w-full flex flex-row items-center px-4 py-3 justify-between border-b border-gray-100">
+                    <span class="uppercase p-1 px-2 bg-orange-500 text-[0.6rem] rounded-xl text-white font-bold">under review</span>
+                    <span class="text-[0.7rem] font-semibold">May 14, 1988</span>
+                </div>
+                <div class="w-full px-4 justify-between py-3">
+                    <div class="border bg-gray-100 rounded-md text-[0.8rem] p-3 text-gray-900 font-semibold">
+                        Here is a short comment about this employee.
+                    </div>
+                </div>
+                <div class="bg-gray-100 w-full p-2 px-4">
+                    <span class="uppercase text-gray-500 font-bold text-[0.75rem]">Employee</span>
+                    <div class="flex gap-3 mt-2">
+                        <div class="h-full flex flex-col">
+                            <span class="rounded-[50%] bg-[rgb(35,_96,_166)] text-white text-[0.75rem] font-bold p-[12px]">VG</span>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <span class="font-bold text-gray-900 text-[0.8rem]">Victor Gonzalez</span>
+                            <span>Instructor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
    
     
     
