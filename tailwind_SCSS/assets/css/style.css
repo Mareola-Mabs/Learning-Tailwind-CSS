@@ -580,4 +580,17 @@ button {
   --tw-bg-opacity: 1;
   background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
 }
-/*# sourceMappingURL=style.css.map */
+
+input[type=text] {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ input[type=text] {
+  background: green;
+  margin-top: 10px;
+  display: block;
+}
+
+p:first-of-type {
+  font-weight: bold;
+}

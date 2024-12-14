@@ -14,3 +14,21 @@
         @apply flex justify-center rounded-sm text-white p-4 hover:bg-blue-300 cursor-pointer
     }
 }
+
+input[type="text"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ input[type="text"]{
+    background: green;
+    margin-top: 10px;
+    display: block;
+}
+
+
+
+p:first-of-type {
+    font-weight: bold;
+  }
+  
+
