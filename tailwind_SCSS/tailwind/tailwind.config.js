@@ -3,6 +3,13 @@ module.exports = {
   content: ["../*.html"],
   theme: {
 
+    screens: {
+      sm: '800px',
+      md: '900px',
+      lg: '976px',
+      xl: '1440px',
+    },
+
 
     extend: {
       // Fonts
