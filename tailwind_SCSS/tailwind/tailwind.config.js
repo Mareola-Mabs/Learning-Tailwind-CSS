@@ -12,7 +12,9 @@ module.exports = {
       },
       // End of Fonts
 
-      
+      colors: {
+        'regal-blue': '#243c5a',
+      },
 
       // Spacing
       spacing: {
