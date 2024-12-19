@@ -565,6 +565,15 @@ button {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.w-128 {
+  width: 400px;
+}
+
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+}
+
 .main__card {
   background: green;
   display: flex;
