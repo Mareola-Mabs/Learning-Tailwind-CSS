@@ -574,6 +574,19 @@ button {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
+.font-playwrite {
+  font-family: Playwrite ES Deco Guides, serif;
+}
+
+.font-playwriteVN {
+  font-family: Playwrite VN Guides, serif;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .main__card {
   background: green;
   display: flex;
@@ -603,3 +616,5 @@ input[type=checkbox]:checked ~ input[type=text] {
 p:first-of-type {
   font-weight: bold;
 }
+
+/*fejkejfekj*/
