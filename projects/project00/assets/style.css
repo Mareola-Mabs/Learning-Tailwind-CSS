@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -554,102 +554,12 @@ video {
   display: none;
 }
 
-button {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 0.375rem;
+.bg-red-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
-  padding: 1rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity, 1));
 }
 
-.w-128 {
-  width: 400px;
-}
-
-.bg-gray-500 {
+.bg-red-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
-}
-
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
-}
-
-.font-playwrite {
-  font-family: Playwrite ES Deco Guides, serif;
-}
-
-.font-playwriteVN {
-  font-family: Playwrite VN Guides, serif;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
-}
-
-.text-regal-blue {
-  --tw-text-opacity: 1;
-  color: rgb(36 60 90 / var(--tw-text-opacity, 1));
-}
-
-.main__card {
-  background: green;
-  display: flex;
-  cursor: pointer;
-  justify-content: center;
-  border-radius: 0.125rem;
-  padding: 1rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.main__card:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
-}
-
-input[type=text] {
-  display: none;
-}
-
-input[type=checkbox]:checked ~ input[type=text] {
-  background: green;
-  margin-top: 10px;
-  display: block;
-}
-
-p:first-of-type {
-  font-weight: bold;
-}
-
-@media (min-width: 800px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .max-md\:hidden {
-    display: none;
-  }
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
 }
