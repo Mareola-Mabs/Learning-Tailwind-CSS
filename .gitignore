@@ -1,17 +1,12 @@
-/CLI-installation/node_modules
-/CLI-installation/package-lock.json
-/CLI-installation/package.json
-/CLI-installation/tailwind.config.js
-
 **/CLI-installation/node_modules
 **/CLI-installation/package-lock.json
 **/CLI-installation/package.json
 **/CLI-installation/tailwind.config.js
 
-/tailwind_SCSS/tailwind/node_modules
-/tailwind/tailwind/package-lock.json
-/tailwind/tailwind/package.json
-/tailwind/tailwind/tailwind.config.js
+**/tailwind_SCSS/tailwind/node_modules
+**/tailwind/tailwind/package-lock.json
+**/tailwind/tailwind/package.json
+**/tailwind/tailwind/tailwind.config.js
 
 /projects/tailwind_files/node_modules
 
