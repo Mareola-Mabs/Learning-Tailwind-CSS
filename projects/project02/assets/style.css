@@ -762,12 +762,16 @@ video {
   font-family: Crimson Text, serif;
 }
 
+.font-playfair-display {
+  font-family: Playfair Display, serif;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-playfair-display {
-  font-family: Playfair Display, serif;
+.font-open-sans {
+  font-family: Open Sans, serif;
 }
 
 .text-3xl {
@@ -798,11 +802,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {

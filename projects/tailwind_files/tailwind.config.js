@@ -17,7 +17,8 @@ module.exports = {
       fontFamily: {
         'crimson-text': ['Crimson Text', 'serif'],
         'DM-Sans': ['DM Sans', 'serif'],
-        'playfair-display': ['Playfair Display', 'serif']
+        'playfair-display': ['Playfair Display', 'serif'],
+        'open-sans': ['Open Sans', 'serif']
       }
 
     },
