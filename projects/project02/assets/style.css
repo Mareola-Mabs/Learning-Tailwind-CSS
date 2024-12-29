@@ -686,11 +686,6 @@ video {
   border-color: rgb(120 133 112 / var(--tw-border-opacity, 1));
 }
 
-.bg-green-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 83 45 / var(--tw-bg-opacity, 1));
-}
-
 .bg-heropink {
   --tw-bg-opacity: 1;
   background-color: rgb(255 123 229 / var(--tw-bg-opacity, 1));
@@ -771,6 +766,10 @@ video {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.font-playfair-display {
+  font-family: Playfair Display, serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -799,6 +798,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
