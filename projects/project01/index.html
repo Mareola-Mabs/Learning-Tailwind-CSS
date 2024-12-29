@@ -1,24 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Product Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
-        <link rel="icon" type="image/x-icon" href="">
-    </head>
-    <body class="bg-[#574835]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Product Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="" />
+  </head>
+  <body class="font-sans">
+    <!-- The container -->
+    <div class="container1 px-5 py-8 flex flex-col gap-4 w-full md:px-14 md:py-20 xl:px-28">
+      <!-- Nav Upper -->
+      <div
+        class="nav__upper flex flex-row items-center font-sans font-semibold text-productgreen text-xs uppercase"
+      >
+        <span>Home</span>
+        <svg
+          class="text-black"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path fill="currentColor" d="M12.6 12L8 7.4L9.4 6l6 6l-6 6L8 16.6z" />
+        </svg>
+        <span>Furniture</span>
+        <svg
+          class="text-black"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path fill="currentColor" d="M12.6 12L8 7.4L9.4 6l6 6l-6 6L8 16.6z" />
+        </svg>
+        <span class="text-black">ALTQUAM ODODIAM</span>
+      </div>
+      <!-- End of Nav Upper -->
 
+      <!-- Nav Lower -->
+      <div class="nav__lower w-full md:flex flex-row gap-8 items-start xl:gap-12">
+        <div class="nav__img relative md:w-1/2">
+          <img src="./images/product.webp" alt="Product Image" class=""/>
+          <span
+            class="bg-productgreen font-sans text-white w-fit px-2 py-1 uppercase text-xs absolute top-4 left-4 font-semibold"
+            >sale!</span
+          >
+        </div>
+        <div class="nav__details flex flex-col gap-4 md:w-1/2">
+          <h2 class="font-sans font-bold text-3xl text-zinc-900 mt-5 md:mt-0">
+            Aliquam Ododiam
+          </h2>
+          <div class="flex flex-row items-center gap-1">
+            <h3 class="text-zinc-800 font-bold text-xl">$69.00</h3>
+            <span class="text-zinc-500 line-through font-bold text-sm"
+              >$79.00</span
+            >
+          </div>
+          <div class="flex flex-col gap-4 text-productgreen font-semibold text-justify">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Aspernatur fugiat ipsa ea magnam itaque qui, vel explicabo
+              obcaecati mollitia error autem ad voluptas rem similique ullam.
+              Vitae voluptas quas vel.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+              nobis obcaecati et perspiciatis tenetur ea temporibus voluptas
+              quas, nihil totam esse dolores, enim sapiente iste eum delectus
+              distinctio repudiandae deserunt sit doloribus numquam aut itaque
+              cupiditate. Maxime ipsa saepe quod?
+            </p>
+          </div>
+          <hr class="border border-solid border-productgreen opacity-50 mt-2"/>
+          <button
+            class="w-fit bg-productgreen px-8 py-3 text-white font-semibold text-sm mt-3"
+          >
+            Add to cart
+          </button>
+        </div>
+      </div>
+      <!-- End of NAv Lower -->
+    </div>
+    <!-- End of Container -->
 
-
-
-
-
-        
-
-
-        <script src="" async defer></script>
-    </body>
+    <script src="" async defer></script>
+  </body>
 </html>

@@ -8,7 +8,9 @@ module.exports = {
       // Extend colors
       colors: {
         herowine: "#920038",
-        heropink: "#ff7be5"
+        heropink: "#ff7be5",
+
+        productgreen: "#788570"
       },
 
       // Extend fonts
