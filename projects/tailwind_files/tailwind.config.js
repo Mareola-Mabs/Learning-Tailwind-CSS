@@ -10,7 +10,9 @@ module.exports = {
         herowine: "#920038",
         heropink: "#ff7be5",
 
-        productgreen: "#788570"
+        productgreen: "#788570",
+
+        productgreen_1: "#697861"
       },
 
       // Extend fonts
