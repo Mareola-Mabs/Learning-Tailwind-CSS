@@ -97,8 +97,8 @@
     "yaml": "^2.6.1"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./input.css -o ../project04/assets/style.css",
-    "watch": "npx tailwindcss -i ./input.css -o ../project04/assets/style.css --watch"
+    "build": "npx tailwindcss -i ./input.css -o ../project05/assets/style.css",
+    "watch": "npx tailwindcss -i ./input.css -o ../project05/assets/style.css --watch"
   },
   "keywords": [],
   "author": "",
